@@ -10,6 +10,9 @@ Dependencies:
   pip install pandas rapidfuzz supabase python-dotenv
   # Optional for HTTP connectivity check:
   pip install requests
+#SUPABASE_URL="https://emxjlyigrdmgiebevyzx.supabase.co"
+#SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVteGpseWlncmRtZ2llYmV2eXp4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MDE2ODU0NSwiZXhwIjoyMDc1NzQ0NTQ1fQ.udG69-5tFqYAyh0iCHc7WGmQADrcl-2P9jsROOat-to"
+
 """
 
 from __future__ import annotations
@@ -481,4 +484,5 @@ def main():
     )
 
 if __name__ == "__main__":
+
     main()
